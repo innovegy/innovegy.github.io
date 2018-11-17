@@ -7483,3 +7483,19 @@ visibility: visible;
   -moz-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
   box-shadow: 0 4px 5px -1px rgba;
 }
+#icon-container{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+@media (max-width: 960px) {
+  #icon-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media (max-width: 468px) {
+  #icon-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}

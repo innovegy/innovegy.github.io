@@ -7536,8 +7536,15 @@ visibility: visible;
   .galeria {
     grid-template-columns: repeat(2, 1fr);
 }
+.mbr-figure img{
+  width: 50%;
+  margin: 0 auto
+}
 .icon-container3{
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
+}
+.display-7 {
+  font-size: 0.8rem;
 }
 }
 .mbr-gallery .mbr-gallery-item{

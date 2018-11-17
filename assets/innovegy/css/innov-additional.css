@@ -7491,6 +7491,10 @@ visibility: visible;
   display: grid;
   grid-template-columns: repeat(4,1fr);
 }
+.icon-container3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
 .galeria {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -7511,6 +7515,10 @@ visibility: visible;
 @media (max-width: 768px) {
   .galeria {
     grid-template-columns: repeat(3, 1fr);
+  
+}
+.icon-container3{
+  grid-template-columns: repeat(2,1fr);
 }
 
 }
@@ -7527,6 +7535,9 @@ visibility: visible;
   }
   .galeria {
     grid-template-columns: repeat(2, 1fr);
+}
+.icon-container3{
+  grid-template-columns: repeat(1,1fr);
 }
 }
 .mbr-gallery .mbr-gallery-item{

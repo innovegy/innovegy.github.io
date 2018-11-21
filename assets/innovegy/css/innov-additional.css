@@ -3674,7 +3674,7 @@ body {
 .cid-r9lpyjwFl4 .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-r9lpyjwFl4 .mbr-gallery-item > div::before {
+.cid-r9lpyjwFl4 .mbr-gallery-item > div.gal::before {
   content: '';
   position: absolute;
   left: 0;
@@ -3687,10 +3687,10 @@ body {
   transition: 0.2s opacity ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-r9lpyjwFl4 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-r9lpyjwFl4 .mbr-gallery-item > div.gal:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-r9lpyjwFl4 .mbr-gallery-item > div:hover:before {
+.cid-r9lpyjwFl4 .mbr-gallery-item > div.gal:hover:before {
   opacity: 0.7 !important;
 }
 .cid-r9lpyjwFl4 .mbr-gallery-title {
@@ -5389,7 +5389,7 @@ body {
 .cid-r9f8tmbHxM .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-r9f8tmbHxM .mbr-gallery-item > div::before {
+.cid-r9f8tmbHxM .mbr-gallery-item > div.gal::before {
   content: '';
   position: absolute;
   left: 0;
@@ -5402,10 +5402,10 @@ body {
   transition: 0.2s opacity ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-r9f8tmbHxM .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-r9f8tmbHxM .mbr-gallery-item > div.gal:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-r9f8tmbHxM .mbr-gallery-item > div:hover:before {
+.cid-r9f8tmbHxM .mbr-gallery-item > div.gal:hover:before {
   opacity: 0.7 !important;
 }
 .cid-r9f8tmbHxM .mbr-gallery-title {

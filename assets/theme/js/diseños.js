@@ -16,7 +16,7 @@ function disenosInnovegy(data){
 }
 
 $.ajax({
-    url:`https://spreadsheets.google.com/feeds/list/${docId}/1/public/values?alt=json-in-script&callback=${fnName}`,
+    url:`https://spreadsheets.google.com/feeds/list/${docId}/2/public/values?alt=json-in-script&callback=${fnName}`,
     dataType:"jsonp",
     jsonpCallback:`${fnName}`
 })

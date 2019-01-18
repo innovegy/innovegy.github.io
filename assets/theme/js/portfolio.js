@@ -25,14 +25,14 @@ function trabajosInnovegy(data){
             indice+=1
         })
         $.ajax({
-            url:`https://spreadsheets.google.com/feeds/list/${docId}/1/public/values?alt=json-in-script&callback=${fnName1}`,
+            url:`https://spreadsheets.google.com/feeds/list/${docId}/2/public/values?alt=json-in-script&callback=${fnName1}`,
             dataType:"jsonp",
             jsonpCallback:`${fnName1}`
         })  
 }
 
 $.ajax({
-    url:`https://spreadsheets.google.com/feeds/list/${docId}/2/public/values?alt=json-in-script&callback=${fnName2}`,
+    url:`https://spreadsheets.google.com/feeds/list/${docId}/1/public/values?alt=json-in-script&callback=${fnName2}`,
     dataType:"jsonp",
     jsonpCallback:`${fnName2}`
 })

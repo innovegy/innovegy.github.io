@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'innovegyIcons';
+    src:  url('innovegy-icons.eot?spat4u');
+    src:  url('innovegy-icons.eot?spat4u#iefix') format('embedded-opentype'),
+      url('innovegy-icons.ttf?spat4u') format('truetype'),
+      url('innovegy-icons.woff?spat4u') format('woff'),
+      url('innovegy-icons.svg?spat4u#innovegyIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="mbri-"], [class*=" mbri-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: innovegyIcons !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.mbri-left-right:before {
+    content: "\e942";
+  }
+  .mbri-left:before {
+    content: "\e943";
+  }
+  .mbri-right:before {
+    content: "\e966";
+  }
+  .mbri-map-pin:before {
+    content: "\e94b";
+  }
+  .mbri-photo:before {
+    content: "\e959";
+  }
+  .mbri-photos:before {
+    content: "\e95a";
+  }
+  .mbri-growing-chart:before {
+    content: "\e935";
+  }
+  .mbri-hearth:before {
+    content: "\e936";
+  }
+  .mbri-rocket:before {
+    content: "\e967";
+  }
+  .mbri-preview:before {
+    content: "\e95e";
+  }
+  .mbri-hearth:before {
+    content: "\e936";
+  }

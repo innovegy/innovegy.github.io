@@ -211,36 +211,6 @@ body{font-family: Roboto;}blockquote{border-color: #108af9;}.display-1{font-fami
 </section>
 </body>
 <script src="../assets/jquery.min.js" async></script>
-<script async>
-var fnName1='disenosInnovegy'
-var fnName2="trabajosInnovegy"
-var docId="1XxLe1FFTt0fM3zxC_ch9g8YKI5PEbyCJ6gYqKrB7qus"
-var inner1=""
-
-function disenosInnovegy(data){
-    data.feed.entry.map(
-        function(linea){
-            inner1+=`<div class="align-center" style="padding-bottom:10%"><a href="${linea.gsx$pageurl.$t}" rel="nofollow" target="_blank"><img src="${linea.gsx$imgurl.$t}" alt="${linea.gsx$imgalt.$t}" title="${linea.gsx$titulo.$t}"></a><p class="mbr-fonts-style group-title mbr-bold display-5"><a href="${linea.gsx$pageurl.$t}" rel="nofollow" target="_blank">${linea.gsx$titulo.$t}</a></p></div>`
-            
-        })
-    document.getElementById('showPics').innerHTML=inner1
-}
-function trabajosInnovegy(data){
-    data.feed.entry.map(
-        function(linea){
-            inner1+=`<div class="align-center" style="padding-bottom:10%"><a href="${linea.gsx$pageurl.$t}" rel="nofollow" target="_blank"><img src="${linea.gsx$imgurl.$t}" alt="${linea.gsx$imgalt.$t}" title="${linea.gsx$titulo.$t}"></a><p class="mbr-fonts-style group-title mbr-bold display-5"><a href="${linea.gsx$pageurl.$t}" rel="nofollow" target="_blank">${linea.gsx$titulo.$t}</a></p></div>`
-        })
-        $.ajax({
-            url:`https://spreadsheets.google.com/feeds/list/${docId}/2/public/values?alt=json-in-script&callback=${fnName1}`,
-            dataType:"jsonp",
-            jsonpCallback:`${fnName1}`
-        })  
-}
-$.ajax({
-    url:`https://spreadsheets.google.com/feeds/list/${docId}/1/public/values?alt=json-in-script&callback=${fnName2}`,
-    dataType:"jsonp",
-    jsonpCallback:`${fnName2}`
-})</script>
 </html>
 
 

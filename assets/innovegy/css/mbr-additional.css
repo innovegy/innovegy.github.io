@@ -2331,3 +2331,24 @@ body {
  width: 90%
 }
 .galeria{background-color:white;padding-top: 5%;padding-bottom: 5%;display: grid;grid-template-columns: repeat(4, 1fr)}.galeria img {width:80%;display:block;margin:auto}@media (max-width: 768px) {.galeria {grid-template-columns: repeat(3, 1fr);}}@media (max-width: 468px) {.galeria {grid-template-columns: repeat(2, 1fr);}}
+.whatsapp {
+  position: fixed;
+visibility:visible;
+  bottom: 15px;
+  right: 15px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid green;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+  font-size: 40px;
+  text-decoration: none;
+  color: green;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 5px -1px rgba;
+}
